@@ -1,7 +1,8 @@
 describe('Google', () => {
-    it('passes', () => {
-    cy.visit('https://www.google.com/')//Verify user is successfully navigated to the landing page
-    cy.get('#APjFqb').click()//Verify User is able to click on tjhe input field
-    .type('Magboro')
+    it('Testing Google site', () => {
+      cy.visit('https://www.google.com/')//Verify User is able to launch Site
+      cy.get('#APjFqb').click()//User is able to click on the input Field
+      .type('Berger')//User is able to type on the Input Field
+
     })
   })
